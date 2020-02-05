@@ -33,10 +33,10 @@ const middle = function(array) {
     return result;
   } else {
     let value = Math.floor(array.length / 2);
-    let firstElement = array[value];
-    let secondElement = array[value - 1];
-    result.push(secondElement);
+    let firstElement = array[value - 1];
+    let secondElement = array[value];
     result.push(firstElement);
+    result.push(secondElement);
     console.log(result);
     return result;
   }
