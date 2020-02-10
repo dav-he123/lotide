@@ -1,15 +1,10 @@
-const head = require("./head");
-const tail = require("./tail");
-const middle = require("./middle");
-const assertArraysEqual = require("./assertArraysEqual");
-const assertEqual = require("./assertEqual");
-const eqArrays = require("./eqArrays");
-
-module.exports = {
-  head,
-  tail,
-  middle,
-  assertArraysEqual,
-  assertEqual,
-  eqArrays
+const obj = {
+  head: require("./head"),
+  tail: require("./tail"),
+  middle: require("./middle"),
+  assertArraysEqual: require("./assertArraysEqual"),
+  assertEqual: require("./assertEqual"),
+  eqArrays: require("./eqArrays")
 };
+
+module.exports = { obj };
